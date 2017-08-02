@@ -17,3 +17,10 @@ A new Gist will be created for each day. If a Gist already exists for the curren
 Once the Gist is created, or updated, the Webtask will send a message back to the requsting phone number with a link to the public Gist.
 
 ## Demo
+
+# Getting Started
+
+## Configuration
+* Twilio Phone Number for SMS
+* Twilio incomming SMS webhook url
+* GitHub personal access token
