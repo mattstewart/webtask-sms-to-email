@@ -1,3 +1,5 @@
+> NOTE: THIS PROJECT IS CURRENTLY A WORK IN PROGRESS
+
 # webtask-sms-to-gist
 
 Send an SMS message to Twilio and create a GitHub Gist with the the content of the message. 
