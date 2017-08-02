@@ -18,9 +18,18 @@ Once the Gist is created, or updated, the Webtask will send a message back to th
 
 ## Demo
 
-# Getting Started
+## Getting Started
 
-## Configuration
+* Cloning the repo...
+
+### Configuration
 * Twilio Phone Number for SMS
 * Twilio incomming SMS webhook url
 * GitHub personal access token
+
+### Deploying the Webtasks
+
+1. Install the Webtask CLI by running `npm install wt-cli -g`
+2. Navigate to the `webtasks` directory
+3. Run `wt init` to create your Webtask account
+4. Run `wt create newsletter.js -s AUTH0_CLIENT_ID=YOUR_AUTH0_CLIENT_ID -s AUTH0_CLIENT_SECRET=YOUR_AUTHO_CLIENT_SECRET -s AUTH0_DOMAIN=YOUR_AUTH0_DOMAIN.auth0.com` to deploy the newsletter Webtask
