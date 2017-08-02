@@ -2,7 +2,7 @@
 
 # webtask-sms-to-gist
 
-![sms-to-gist-prewiew](/assets/preview.gif)
+<div style="text-align:center"><img src ="/assets/preview.gif" /></div>
 
 Send an SMS message to Twilio and create a GitHub Gist with the the content of the message. 
 
