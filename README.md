@@ -16,6 +16,13 @@ Send an SMS message to the Twilio phone number configured for the webtask. A Git
 
 ## Demo
 
+Send an SMS message to 864-920-1506 with markdown text such as: 
+```
+### What did I learn today?
+Today I learned how to use webtasks using Webtask.io and **Auth0**!
+```
+The SMS will be sent to Twilio which will call the webtask. The webtask will then create a Gist and respond with a link to the Gist.
+
 ## Getting Started
 
 * Clone this repo
