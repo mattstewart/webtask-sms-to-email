@@ -25,16 +25,16 @@ The SMS will be sent to Twilio which will call the webtask. The webtask will the
 
 ## Getting Started
 
-* Clone this repo
-* Create a Twilio account with a phone number that supports SMS
-* Find your Twilio SID and Auth Token for use when creating the webtask
-* Create a Github account
-* Create a Personal Access OAuth Token for use when creating the webtask (Settings > Developer Settings > Personal Access Tokens)
-* Deploy to [Webtask.io](https://webtask.io)
-    1. Create an account at [Webtask.io](https://webtask.io)
-    1. Install the Webtask CLI by running `npm install wt-cli -g`
-    2. Navigate to the `webtasks` directory
-    3. Run `wt init <YOUR_EMAIL_ADDRESS>` to create your Webtask account
-    4. Run the following to deploy the _sms-to-gist_ webtask: `wt create sms-to-gist.js -s GITHUB_TOKEN=<YOUR_GITHUB_TOKEN>_ -s TWILIO_AUTH_TOKEN=<YOUR_TWILIO_AUTH_TOKEN> -s TWILIO_ACCOUNT_SID=<YOUR_TWILIO_ACCOUNT_SID> -s TWILIO_NUMBER_=<YOUR_TWILIO_NUMBER>`
-    5. Capture the webtask Url
-* Update the Twilio incomming SMS webhook Url with the webtask Url
+1. Clone this repo
+2. Create a Twilio account with a phone number that supports SMS
+3. Find your Twilio SID and Auth Token for use when creating the webtask
+4. Create a Github account
+5. Create a Personal Access OAuth Token for use when creating the webtask (Settings > Developer Settings > Personal Access Tokens)
+6. Deploy to [Webtask.io](https://webtask.io)
+    * Create an account at [Webtask.io](https://webtask.io)
+    * Install the Webtask CLI by running `npm install wt-cli -g`
+    * Navigate to the `webtasks` directory
+    * Run `wt init <YOUR_EMAIL_ADDRESS>` to create your Webtask account
+    * Run the following to deploy the _sms-to-gist_ webtask: `wt create sms-to-gist.js -s GITHUB_TOKEN=<YOUR_GITHUB_TOKEN>_ -s TWILIO_AUTH_TOKEN=<YOUR_TWILIO_AUTH_TOKEN> -s TWILIO_ACCOUNT_SID=<YOUR_TWILIO_ACCOUNT_SID> -s TWILIO_NUMBER_=<YOUR_TWILIO_NUMBER>`
+    * Capture the webtask Url
+7. Update the Twilio incomming SMS webhook Url with the webtask Url
